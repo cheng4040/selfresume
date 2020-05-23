@@ -1,0 +1,267 @@
+body{
+font-family: 微軟正黑體;
+background-color:#4169E1;
+}
+.myself1{
+width: 1200px;
+height: 400px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 30px; 
+left: 80px; 
+background-color:yellow;
+}
+.myself2{
+width: 1160px;
+height: 370px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 10px;
+left: 20px;
+background-color:#F5F5F5;
+}
+img.me{
+float: left;
+position: relative;
+top:40px;
+left: 100px;
+margin:0px;
+margin-left:0px;
+border-style:double;
+border-width:5px;
+border-color:black;
+}
+.myself3{
+position: relative;
+top:50px;
+left:-40px;
+text-align: center;
+color: ;
+}
+img.fb{
+width: 80px;
+height: 80px;
+position: relative;
+top: -280px;
+left: 550px;
+}
+.fb:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+img.github{
+width: 80px;
+height: 80px;
+position: relative;
+top: -180px;
+left: 465px;
+}
+.github:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+img.mee{
+width: 80px;
+height: 80px;
+position: relative;
+top: -80px;
+left: 380px;
+}
+.mee:hover{
+overflow:hidden;
+transform: scale(1.1);
+transition:all 0.5s ease 0s;
+}
+.skill1{
+width: 1200px;
+height: 750px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 50px; 
+left: 80px; 
+background-color:yellow;
+}
+.skill2{
+width: 1160px;
+height: 720px;
+border-style:groove;
+border-color:black;
+position: absolute;
+top: 15px;
+left: 20px;
+background-color:#F5F5F5;
+}
+.skill3{
+position: relative;
+top: 50px;
+left: 115px;
+}
+.skill4{
+font-size: 20px;
+font-weight: bold;
+text-align:left;
+line-height: 50px;
+}
+.linebar {
+width: 90%;
+background-color:#F5F5F5;
+font-weight: bold;
+font-family: Candara;
+}
+.c{width: 75%; background-color: #F4A460; animation: c 1.5s ease-in;}
+@keyframes c
+{from{width: 0%}to{width:75%}}
+.java{width: 75%; background-color:	#F0E68C; animation: java 1.5s ease-in;}
+@keyframes java
+{from{width: 0%}to{width:75%}}
+.html {width: 70%; background-color: 	#7FFF00;animation: html 1.5s ease-in;}
+@keyframes html
+{from{width: 0%}to{width:70%}}
+.python {width: 60%; background-color: 	#87CEFA; animation: python 1.5s ease-in;}
+@keyframes python
+{from{width: 0%}to{width:60%}}
+.draw {width: 80%; background-color: 	#9370DB;animation: draw 1.5s ease-in;}
+@keyframes draw
+{from{width: 0%}to{width:80%}}
+.experience1{
+	width: 1200px;
+height: 1260px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 80px; 
+left: 80px; 
+background-color:yellow;
+}
+.experience2{
+	width: 1160px;
+height: 1230px;
+border-style:groove;
+border-color:black;
+position: absolute;
+top: 15px;
+left: 20px;
+background-color:#F5F5F5;
+}
+.experience3{
+	position: absolute;
+	top: 120px;
+background-color:#F5F5F5;
+width: 1160px;
+height:370px;
+}
+img.img1{
+	position: relative;
+	top: 50px;
+	left:60px;
+	width:480px ;
+	height:270px;
+	border-style:groove;
+border-color:black;
+border-width: 3px;
+}
+.experience_content1{
+	position: absolute;
+	top: 30px;
+	left:620px;
+	font-size: 24px;
+}
+.experience4{
+	position: absolute;
+	top: 490px;
+background-color:#F5F5F5;
+width: 1160px;
+height:370px;
+}
+img.img3{
+	position: relative;
+	top: 50px;
+	left:60px;
+	width:480px ;
+	height:270px;
+	border-style:groove;
+border-color:black;
+border-width: 3px;
+}
+.experience_content2{
+	position: absolute;
+	top: 30px;
+	left:620px;
+	font-size: 24px;
+}
+.experience5{
+	position: absolute;
+	top: 860px;
+background-color:#F5F5F5;
+width: 1160px;
+height:370px;
+}
+img.img5{
+	position: relative;
+	top: 50px;
+	left:60px;
+	width:480px ;
+	height:270px;
+	border-style:groove;
+border-color:black;
+border-width: 3px;
+}
+.experience_content3{
+	position: absolute;
+	top: 30px;
+	left:620px;
+	font-size: 24px;
+}
+.hover img {
+  position:absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.hover img:nth-of-type(2):hover{
+  opacity:0;
+}
+.email1{
+	width: 1200px;
+height: 100px;
+border-style:groove;
+border-color:black;
+position: relative;
+top: 100px; 
+left: 80px; 
+background-color:yellow;
+}
+.email2{
+	width: 1160px;
+height: 70px;
+border-style:groove;
+border-color:black;
+position: absolute;
+top: 15px;
+left: 20px;
+background-color:#F5F5F5;
+}
+.top{
+position:fixed;
+right:10px;
+bottom:20px;
+width: 50px;
+}
+.top:hover{
+width:60px;
+}
+.footer{
+font-size: 14px;
+text-align:center;
+margin:0 auto;
+background-color:#2E8B57;
+padding:30px 45px;
+width:1260px;
+height:10px;
+}
